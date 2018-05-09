@@ -261,7 +261,7 @@ void drawInfo(unsigned int co2_ppm, float humidity, float pressure, float temp, 
     oled.print(", ");
     oled.print(charge_percentage);
     oled.print("%");
-    oled.print(", mad:");
+    oled.print(", mod:");
     oled.println(display_mod);
 
     oled.print("CO2:");
